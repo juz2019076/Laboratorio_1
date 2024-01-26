@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: rgba(51, 51, 51, 0.8); /* Fondo semi-transparente */
+    background-color: rgba(99, 98, 98, 0.562); /* Fondo semi-transparente */
     color: #fff;
     text-align: center;
     padding: 1em;
@@ -57,7 +57,5 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+    margin-top: auto;
 }

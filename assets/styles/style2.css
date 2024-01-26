@@ -19,8 +19,8 @@ body {
 
 .header {
     background-image: linear-gradient(
-        rgba(13, 1, 66, 0.103),
-        rgba(2, 0, 110, 0.034)),
+        rgba(242, 241, 247, 0.103),
+        rgba(172, 171, 184, 0.034)),
         url(../img/bg.jpg);
         background-position: center bottom;
         background-repeat: no-repeat;
@@ -54,13 +54,13 @@ body {
 .menu .navbar ul li a {
     font-size: 18px;
     padding: 20px;
-    color: #cc6d3d; 
+    color: #01075ffb; 
     display: block;
     font-weight: 600;
 }
 
 .menu .navbar ul li a:hover{
-    color: #01075ffb;
+    color: #cc6d3d;
 }
 
 #menu {
@@ -83,9 +83,13 @@ body {
 .header-content h1 {
     font-size: 75px;
     line-height: 80px;
-    color: #F9FAFC;
-    text-transform: uppercase;
+    color: #041841c5;
+    text-transform:inherit;
     margin-bottom: 35px;
+    -webkit-text-stroke: 2px rgb(255, 255, 255); /* Para navegadores basados en WebKit (como Chrome y Safari) */
+    text-stroke: 2px rgb(255, 255, 255); /* Para navegadores más modernos */
+    color: #01075ffb;
+    
 }
 
 .header-content p {

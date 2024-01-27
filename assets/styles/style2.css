@@ -41,7 +41,7 @@ body {
 }
 
 .logo {
-    color: #FFFDFC;
+    color: #ff9e6d;
     font-size: 25px;
     font-weight: 800;
 }
@@ -234,7 +234,7 @@ body {
 }
 
 .general-3 {
-    background-image: url(images/coffee-2.jpg);
+    background-image: url(../img/coffe2.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -270,7 +270,7 @@ p {
 }
 
 .blog-1 img {
-    width: 250px;
+    width: 200px;
     border-radius: 15px;
     margin-bottom: 15px;
 }
@@ -282,7 +282,7 @@ p {
 
 .footer {
     padding: 100px 0;
-    background-color: #000000;
+    background-color: #000d36;
 }
 
 .footer-content {

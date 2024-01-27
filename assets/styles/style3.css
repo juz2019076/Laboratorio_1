@@ -11,14 +11,26 @@ body {
     padding: 0 20px;
 }
 
+/* ... (estilos existentes) */
+
 header {
     background-color: #333;
     color: #fff;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     margin: 0;
+}
+
+.profile-image {
+    width: 50px; /* ajusta el tamaño según sea necesario */
+    height: 50px; /* ajusta el tamaño según sea necesario */
+    border-radius: 50%; /* para hacer la imagen redonda */
+    margin-left: 20px; /* ajusta el margen según sea necesario */
 }
 
 nav ul {
@@ -35,6 +47,7 @@ nav a {
     color: #fff;
     font-weight: bold;
 }
+
 
 .section {
     padding: 60px 0;

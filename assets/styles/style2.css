@@ -88,7 +88,7 @@ body {
     margin-bottom: 35px;
     -webkit-text-stroke: 2px rgb(255, 255, 255); /* Para navegadores basados en WebKit (como Chrome y Safari) */
     text-stroke: 2px rgb(255, 255, 255); /* Para navegadores más modernos */
-    color: #01075ffb;
+    color: #040042;
     
 }
 
@@ -124,7 +124,7 @@ body {
 .coffe-content h2 {
     font-size: 55px;
     line-height: 70px;
-    color: #323337;
+    color: #bb5c25;
     text-transform: uppercase;
     padding: 0 250px;
     margin-bottom: 15px;
@@ -132,7 +132,7 @@ body {
 
 .txt-p {
     font-size: 16px;
-    color: #414257;
+    color: #040042;
     padding: 0 250px;
     margin-bottom: 35px;
 
@@ -159,7 +159,7 @@ body {
 }
 
 .coffe-1 h3 {
-    color: #323337;
+    color: #040042;
     font-size: 20px;
     margin-bottom: 15px;
  }
@@ -190,7 +190,7 @@ body {
 
 .services-content p {
     font-size: 16px;
-    color: #C5C5C5;
+    color: #040042;
     margin-bottom: 50px;
     padding: 0 100px;
 }
@@ -244,14 +244,14 @@ body {
 h2 {
     font-size: 55px;
     line-height: 70px;
-    color: #323337;
+    color: #040042;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
 
 p {
     font-size: 16px;
-    color: #414257;
+    color: #040042;
     margin: 25px 0 45px 0;
 }
 
@@ -277,7 +277,7 @@ p {
 
 .blog-1 h3 {
     font-size: 25px;
-    color: #323337;
+    color: #040042;
 }
 
 .footer {

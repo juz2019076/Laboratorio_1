@@ -14,7 +14,10 @@ body {
 /* ... (estilos existentes) */
 
 header {
-    background-color: #333;
+    background-image: url('../img/ft.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     color: #fff;
     padding: 20px 0;
     display: flex;
@@ -30,7 +33,7 @@ header h1 {
     width: 50px; /* ajusta el tamaño según sea necesario */
     height: 50px; /* ajusta el tamaño según sea necesario */
     border-radius: 50%; /* para hacer la imagen redonda */
-    margin-left: 20px; /* ajusta el margen según sea necesario */
+    margin-right: 20px; /* ajusta el margen según sea necesario */
 }
 
 nav ul {
@@ -48,9 +51,16 @@ nav a {
     font-weight: bold;
 }
 
+section.interests {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 1em;
+}
 
 .section {
-    padding: 60px 0;
+    padding: 10px;
 }
 
 .section h2 {
@@ -81,6 +91,37 @@ footer {
     height: 75px;
 }
 
+.interest {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo semi-transparente */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    margin: 1em;
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.interest:hover {
+    transform: scale(1.05);
+}
+
+.interest img {
+    max-width: 100%;
+    border-bottom: 1px solid #ccc;
+    border-radius: 10px 10px 0 0;
+}
+
+.interest h2 {
+    margin: 1em 0;
+    color: #333;
+}
+
+.interest p {
+    color: #666;
+    padding: 0 1em 1em;
+}
+
 .btn2 {
     position: relative;
     display: inline-block;
@@ -99,9 +140,9 @@ footer {
     position: absolute;
     top: -2px;
     left: -2px;
-    width: calc(100% + 4px);
+    width: calc(100% + 2px);
     height: calc(100% - -2px);
-    background-color: #212121;
+    background-color: #ce7209;
     transition: 0.3s ease-out;
     transform: scaleY(1);
   }
@@ -113,7 +154,7 @@ footer {
     left: -2px;
     width: calc(100% + 4px);
     height: calc(100% - 50px);
-    background-color: #212121;
+    background-color: #070046;
     transition: 0.3s ease-out;
     transform: scaleY(1);
   }
@@ -129,7 +170,7 @@ footer {
   }
   
   .btn2:hover {
-    border: 2px solid #fefefe;
+    border: 2px solid #070046;
   }
   
   .btn2 span {
